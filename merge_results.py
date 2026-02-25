@@ -134,7 +134,7 @@ def main():
         return
     
     # Use the specified full results file
-    full_results_file = "experiment_results_full_1764621029.json"
+    full_results_file = "experiment_results_full_gemini.json"
     if not os.path.exists(full_results_file):
         full_results_file = max(full_files, key=os.path.getctime)
     
